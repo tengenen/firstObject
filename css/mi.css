@@ -1,0 +1,417 @@
+html,
+body {
+  height: 100%;
+}
+a {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style: none;
+}
+main {
+  width: 16rem;
+}
+main #mainContent {
+  width: 16rem;
+}
+main #mainContent #sec1 {
+  width: 16rem;
+  position: absolute;
+  background: #fff;
+  z-index: 0;
+  display: block;
+}
+main #sec2,
+main #sec3,
+main #sec4 {
+  display: none;
+}
+main #sec2 {
+  z-index: 99999;
+}
+main header {
+  height: 1.3rem;
+  width: 15.5rem;
+  margin: 0 auto;
+}
+main header a {
+  display: block;
+}
+main header span {
+  display: inline-block;
+  color: #999;
+  font-size: 0.7rem;
+  line-height: 1.5rem;
+}
+main header img {
+  width: 1.2rem;
+  height: 1.2rem;
+  float: left;
+  margin: 0.2rem 0 0 0;
+}
+main #search_bottom {
+  width: 15.5rem;
+  height: 0.2rem;
+  margin: 0 auto 0.3rem;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+#loopDiv {
+  width: 16rem;
+  height: 8rem;
+  overflow: hidden;
+  position: relative;
+}
+#loopDiv #circle {
+  position: absolute;
+  left: 40%;
+  bottom: 10%;
+}
+#loopDiv #circle li {
+  float: left;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #ccc;
+  margin-left: 10px;
+}
+#loopUl {
+  width: 96rem;
+  height: 8rem;
+  position: absolute;
+}
+#loopUl li {
+  width: 16rem;
+  height: 8rem;
+  float: left;
+}
+#loopUl li img {
+  width: 16rem;
+  height: 8rem;
+  display: block;
+  float: left;
+}
+.sixImg {
+  width: 16rem;
+  height: 14rem;
+  display: -webkit-flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0.2rem 0 0 0 ;
+}
+.sixImg li {
+  margin: 0 0 0.2rem 0;
+  float: left;
+}
+.sixImg li img {
+  width: 5.1rem;
+  height: 7rem;
+}
+.sellList {
+  width: 16rem;
+}
+.sellList .leftDiv {
+  float: left;
+  width: 5rem;
+}
+.sellList .rightDiv {
+  float: left;
+  width: 10.5rem;
+}
+.sellList li {
+  border-bottom: 1px solid #ccc;
+  width: 16rem;
+  overflow: hidden;
+  margin: 0.4rem 0 0 0;
+}
+.sellList li img {
+  width: 5rem;
+  height: 3rem;
+}
+.sellList p:nth-of-type(1) {
+  color: black;
+  font-size: 0.7rem;
+}
+.sellList p:nth-of-type(2) {
+  color: #999999;
+  font-size: 0.6rem;
+}
+.sellList p:nth-of-type(3) {
+  color: orangered;
+  font-size: 0.3rem;
+}
+#sec2,
+#sec3,
+#sec4 {
+  width: 16rem;
+  background: #F6F1F1;
+}
+#sec2 h2,
+#sec3 h2,
+#sec4 h2 {
+  background: #F6F1F1;
+  width: 16rem;
+  height: 2rem;
+  line-height: 2rem;
+  color: gray;
+  font-size: 0.8rem;
+  font-weight: normal;
+}
+#sec2 h2 .h2Img,
+#sec3 h2 .h2Img,
+#sec4 h2 .h2Img {
+  width: 1.2rem;
+  height: 1.2rem;
+  margin: 0 0 0 0.2rem;
+}
+#sec2 h2 span,
+#sec3 h2 span,
+#sec4 h2 span {
+  display: inline-block;
+  padding: 0 4.3rem 0 5rem;
+}
+#p2List {
+  width: 15.4rem;
+  margin: auto;
+}
+#p2List .outer {
+  width: 15.4rem;
+  margin: 0 auto 0.3rem;
+  background: white;
+}
+#p2List .p2P {
+  width: 15.4rem;
+  text-align: center;
+  height: 3rem;
+  line-height: 3rem;
+  font-size: 0.8rem;
+}
+.inner {
+  width: 15.4rem;
+  margin: //  border: 1px solid #ccc;;
+}
+.p2Li {
+  height: 3.5rem;
+  width: 3rem;
+  float: left;
+  margin: 0 0 1rem 0.6rem ;
+}
+.p2Li .p2Img {
+  height: 2.3rem;
+  width: 2.3rem;
+  margin: 0 0 0.3rem 0.6rem;
+}
+.p2Li .phoneName {
+  width: 3.5rem;
+  height: 0.8rem;
+  text-align: center;
+  font-size: 0.4rem;
+}
+#sec3 {
+  width: 16rem;
+  background: white;
+}
+#sec3 #circle {
+  width: 5rem;
+  height: 5rem;
+  margin: 3rem auto 2rem;
+}
+#sec3 .gth {
+  width: 5rem;
+  height: 5rem;
+}
+#aDiv {
+  width: 11rem;
+  height: 2.3rem;
+  margin: auto;
+}
+#aDiv a:nth-of-type(1) {
+  display: inline-block;
+  width: 5.44rem;
+  height: 2.3rem;
+  color: #333;
+  line-height: 2.3rem ;
+  text-align: center;
+  font-size: 0.6rem;
+  background: #E5E5E5;
+  float: left;
+}
+#aDiv a:nth-of-type(2) {
+  display: inline-block;
+  width: 5.4rem;
+  height: 2.3rem;
+  line-height: 2.3rem ;
+  text-align: center;
+  background: orangered;
+  color: white;
+  font-size: 0.6rem;
+}
+#sec4 {
+  position: relative;
+  background: #F6F1F1;
+  height: 100%;
+}
+#sec4 .log {
+  width: 16rem;
+  height: 3.5rem;
+  background: #FF4500;
+}
+#sec4 .log .logP {
+  color: white;
+  line-height: 2.5rem;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.add {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background: #fce67e;
+  line-height: 2.5rem;
+  text-align: center;
+  position: absolute;
+  top: 4rem;
+  left: 40%;
+}
+.add .jiahao {
+  color: white;
+  font-size: 1.6rem;
+  line-height: 3rem;
+  text-align: center;
+}
+#detail {
+  width: 16rem;
+  height: 4rem;
+  background: white;
+  padding: 2rem 0 0 0;
+  margin: 0 0 1rem 0;
+}
+#detail a {
+  display: block;
+  width: 5rem;
+  height: 3rem;
+  float: left;
+  color: #333333;
+}
+#detail a div {
+  width: 5rem;
+  height: 1.6rem;
+  text-align: center;
+  line-height: 1.6rem;
+}
+#detail a p {
+  width: 5rem;
+  height: 1rem;
+  text-align: center;
+  line-height: 1rem;
+  font-size: 0.6rem;
+}
+#detail a .lineP {
+  width: 1.4rem;
+  height: 0.04rem;
+  background: red;
+  margin: 0.4rem auto;
+  z-index: 999px;
+}
+#detail a:nth-of-type(1) {
+  margin: 0 0 0 0.6rem;
+}
+#detail a:nth-of-type(2) {
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+#detail .iconfont {
+  font-size: 1rem;
+}
+#content .conP {
+  width: 16rem;
+  height: 2rem;
+  background: white;
+  font-size: 0.6rem;
+  line-height: 2rem;
+}
+#content .conP span {
+  margin: 0 1rem 0 1.2rem;
+}
+#content .conP:nth-of-type(1) {
+  margin: 0 0 0.1rem 0;
+}
+#content p:nth-child(2) {
+  margin: 0 0 0.6rem 0;
+}
+#content p:nth-child(3) {
+  margin: 0 0 0.6rem 0;
+}
+#content .span1 {
+  width: 1.2rem;
+  height: 0.8rem;
+  display: inline-block;
+  background: url(../img/spr2.png) no-repeat;
+  background-position: 0 -4.35rem;
+  background-size: cover ;
+  vertical-align: middle;
+}
+#content .span2 {
+  width: 1rem;
+  height: 0.8rem;
+  display: inline-block;
+  background: url(../img/spr2.png) no-repeat;
+  background-position: 0 -4.25rem;
+  background-size: cover ;
+  vertical-align: middle;
+}
+#content .span3 {
+  width: 1rem;
+  height: 0.8rem;
+  display: inline-block;
+  background: url(../img/spr2.png) no-repeat;
+  background-position: 0 -2.9rem;
+  background-size: cover ;
+  vertical-align: middle;
+}
+#content .span4 {
+  width: 1rem;
+  height: 0.8rem;
+  display: inline-block;
+  background: url(../img/spr2.png) no-repeat;
+  background-position: 0 -4.92rem;
+  background-size: cover ;
+  vertical-align: middle;
+}
+#tabbar {
+  width: 16rem;
+  height: 2.2rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  line-height: 2.5rem;
+  background: #fff;
+  border-top: 1px solid #ccc;
+}
+#tabbar a {
+  text-align: center;
+  display: block;
+  float: left;
+  width: 4rem;
+  color: #999;
+  text-decoration: none;
+}
+#tabbar a div {
+  width: 4rem ;
+  height: 1.2rem;
+  text-align: center;
+  line-height: 1.2rem;
+}
+#tabbar a p {
+  width: 4rem;
+  height: 1rem;
+  text-align: center;
+  line-height: 1rem;
+  font-size: 0.4rem;
+}
+#tabbar .iconfont {
+  font-size: 1rem;
+}

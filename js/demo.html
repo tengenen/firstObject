@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>demo</title>
+		<meta charset="UTF-8"/>
+        <meta http-equiv="Content-sytle" content="text/html;charset=utf-8" />
+        <style type="text/css">
+            div { 
+                color:white;
+            }
+        </style>
+        <!--[if IE 6]>
+            <link rel="stylesheet" type="text/css" href="ie6.css" />
+        <![endif]-->
+        <!--[if IE 7]>
+            <link rel="stylesheet" type="text/css" href="ie7.css" />
+        <![endif]-->
+        <!--[if IE 8]>
+            <link rel="stylesheet" type="text/css" href="ie8.css" />
+        <![endif]-->
+    </head>
+    <body>
+        <div>
+            <p>this is a box.It will be red in ie6,blue in ie7,green in ie8.</p>
+        </div>
+    </body>
+</html>
+
+系统错误 14:43:40
+function divShow(num){
+		var arr = ["#store","#sort","#cart","#serve"];
+		for (var i = 0; i < arr.length; i++) {
+			if (i==num) {
+				$(arr[i]).css({display:"block"});
+				$(".div_nav").eq(i).css({color:"orange"});
+			} else{
+				$(arr[i]).css({display:"none"});
+				$(".div_nav").eq(i).css({color:"black"});
+			}
+		}
+	}
